@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{dbe4b45f-bbbc-4a42-939b-f8d7944543a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hpp">
+      <UniqueIdentifier>{5058c2ae-1cb7-4075-ae97-70b21f1d586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cu">
+      <UniqueIdentifier>{c629a8da-9c03-4a6d-b8e6-faae8dde66bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>cu</Filter>
+    </CudaCompile>
+    <CudaCompile Include="tools.cu">
+      <Filter>cu</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definitions.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_cuda.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_string.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>hpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

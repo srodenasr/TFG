@@ -1,0 +1,22 @@
+CÓDIGOS ERRORES GENERALES
+======================================
+0      Todo correcto
+-1     Error no controlado
+
+CÓDIGOS ERRORES UTILIDADES
+======================================
+100     No existe el dispositivo (GPU) indicado
+101     La GPU indicada existe, pero ha habido un problema al asignarla
+102     Error al obtener el número de GPUs disponibles
+103     La GPU indicada existe, pero ha habido un problema al reiniciarla
+104     Error al asignar la GPU indicada para posteriormente reiniciarla
+105     No hay dispositivos compatibles con CUDA para reiniciar
+
+CÓDIGOS ERRORES CUDA
+======================================
+200     Error al reservar memoria para la imagen src del device
+201     Error al reservar memoria para la imagen dst del device
+202     Error al copiar la imagen src del host al device
+203     Error al copiar la imagen src del device al dst del host
+204     Error al liberar memoria de la imagen src del device
+205     Error al liberar memoria de la imagen dst del device

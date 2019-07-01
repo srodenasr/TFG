@@ -1,0 +1,18 @@
+Detectado(s) 1 dispositivo(s) compatible(s) con CUDA
+
+Dispositivo 0: "GeForce GTX 1050"
+   - CUDA Driver Version / Runtime Version 10.1 / 10.1
+   - CUDA Capability Major/Minor version number: 6.1
+   - Total amount of global memory: 2048 MBytes (2147483648 bytes)
+   - (5) Multiprocessors, (128) CUDA Cores/MP: 640 CUDA Cores
+   - Total amount of constant memory: 65536 bytes
+   - Total amount of shared memory per block: 49152 bytes
+   - Total number of registers available per block: 65536
+   - Warp size: 32
+   - Maximum number of threads per multiprocessor: 2048
+   - Maximum number of threads per block: 1024
+   - Max dimension size of a thread block (x,y,z): (1024, 1024, 64)
+   - Max dimension size of a grid size (x,y,z): (2147483647, 65535, 65535)
+   - memory pitch: 2147483647 bytes
+
+Resultado = EXITOSO
